@@ -1,0 +1,1 @@
+Until they became conscious, they will never rebel, and until after they have rebelled, they cannot become conscious.
