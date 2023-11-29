@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-def uppercase(str):
-    """Print a string in uppercase."""
-    for c in str:
-        if ord(c) >= 97 and ord(c) <= 123:
-            c = chr(ord(c) - 32)
-        print("{}".format(c), end="")
-    print("")
+def print_last_digit(number):
+    if (number < 0):
+        number = -(number)
+    digit = number % 10
+    print("{:d}".format(digit), end='')
+    return digit
