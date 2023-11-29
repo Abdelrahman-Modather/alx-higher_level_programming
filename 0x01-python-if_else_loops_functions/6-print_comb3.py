@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def islower(c):
-	if (ord(c) >= ord('a') and ord(c) <= ord('z')):
-		return True
-	return False
-
+for a in range(0, 10):
+    for b in range((a+1), 10):
+        if (a != 8) or (b != 9):
+            print("{}{}, ".format(a, b), end="")
+        else:
+            print("{}{}".format(a, b))
